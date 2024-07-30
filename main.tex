@@ -1,0 +1,39 @@
+\documentclass[a4paper,skipsamekey,11pt,english]{curve}
+\usepackage{settings}
+\usepackage[T1]{fontenc}
+\usepackage[p,osf,swashQ]{cochineal}
+\usepackage{cabin}
+\usepackage[varqu,varl,scale=0.9]{zi4}
+
+\addbibresource{own-bib.bib}
+
+% Change the page margins if you want
+% \geometry{left=1cm,right=1cm,top=1.5cm,bottom=1.5cm}
+
+% Change the colours if you want
+% \definecolor{SwishLineColour}{HTML}{00FFFF}
+% \definecolor{MarkerColour}{HTML}{0000CC}
+
+% Change the item prefix marker if you want
+% \prefixmarker{$\diamond$}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\isforPhD{0}
+
+\begin{document}
+
+\makeheaders[c]
+
+%\input{sections/interests_PhD}
+\vfill
+\makerubric{sections/jobs}
+\vfill
+\makerubric{sections/education}
+\vfill
+\makerubric{sections/skills}
+\vfill
+\input{sections/publications}
+
+%\input{sections/signature}
+
+\end{document}
